@@ -1,0 +1,19 @@
+.full-width-image {
+    width: 100vw; /* Full width */
+    height: 800px; /* Optional: Full screen height */
+    object-fit: cover; /* Ensures the image covers the area */
+  }
+
+.carousel-header{
+    color:  #ff4040;
+}
+.carousel-text{
+    color: #FFF;
+}
+
+
+@media (max-width: 768px) {
+.full-width-image{
+    height: 400px;
+}
+}

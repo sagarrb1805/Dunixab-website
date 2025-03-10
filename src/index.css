@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --bs-navbar-active-color:  #ff4040; /* This is overriding Bootstrap's default */
+}

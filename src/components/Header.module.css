@@ -1,0 +1,172 @@
+.logo{
+    height: 100px;
+}
+
+.company-name{
+    color: #FFF;
+}
+
+.company-name .company-name-span{
+    color: #ff4040;
+}
+
+.call-icon{
+    color: #FFF;
+    font-size: 18px;
+}
+
+
+.call-icon-div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ff4040;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    /* cursor: pointer;  */
+    }
+
+.contact-main-div{
+    display: flex;
+    align-items: center;
+}
+
+.contact-main-div .phone-number{
+    color: #FFF;
+    margin-left: 8px;
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+.nav-header{
+    background-color:transparent;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 105;
+    transition: .4;
+}
+
+.nav-header.bottom-line {
+    border-bottom: 1px solid #c2c0c0;
+}
+
+.nav-header .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+}
+
+
+
+.nav-header .nav>ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0px;
+    align-items: center;
+    margin-left: auto;
+
+}
+
+.nav-header .nav > ul >li{
+    margin-left: 15px;
+    list-style-type: none;
+}
+.nav-header .nav > ul > li > a {
+    padding: 7px 19px;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 25px;
+    /* border: 1px solid #8d8c8c; */
+    font-weight: 700;
+    transition: .3s;
+    font-size: 18px;
+}
+
+
+.nav-header .nav ul > li > a:hover {
+    /* background-color: #21da49; */
+    color: #ff4040;
+}
+.nav-header .nav ul > li > a {
+    transition: transform 0.3s ease;
+}
+
+.nav-header .nav ul > li > a:hover {
+    transform: scale(1.1);
+}
+
+
+.nav-header .nav ul > li > a.active {
+    color: #ff4040 !important;  /* Change text color */
+    background-color: #18365E !important; /* Ensure background color consistency */
+}
+
+
+
+
+
+
+.hamburger-button {
+    display: none; /* Hide by default on larger screens */
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: auto;
+  }
+  
+  .side-menu {
+    position: fixed;
+    top: 70px; 
+    right: -250px; /* Initially hidden */
+    width: 250px;
+    height: 100vh;
+    background-color: #333; /* Or your desired background */
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+    padding-top: 20px;
+  }
+  
+  .side-menu.open {
+    right: 0; /* Show the menu */
+  }
+  
+  .side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .side-menu ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .side-menu ul li a:hover {
+    background-color: #555;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .hamburger-button {
+      display: block; /* Show on small screens */
+    }
+  
+    .desktop-nav {
+      display: none !important; /* Hide desktop nav on small screens */
+    }
+  
+    .nav-header .nav {
+        justify-content: space-between;
+    }
+  }
