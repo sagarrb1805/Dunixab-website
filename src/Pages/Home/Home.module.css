@@ -1,7 +1,7 @@
 .full-width-image {
-    width: 100vw; /* Full width */
-    height: 800px; /* Optional: Full screen height */
-    object-fit: cover; /* Ensures the image covers the area */
+    width: 100vw; 
+    height: 600px; 
+    object-fit: cover; 
   }
 
 .carousel-header{

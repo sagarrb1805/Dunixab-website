@@ -91,7 +91,7 @@
 
 
 .nav-header .nav ul > li > a:hover {
-    /* background-color: #21da49; */
+    
     color: #ff4040;
 }
 .nav-header .nav ul > li > a {
@@ -104,8 +104,8 @@
 
 
 .nav-header .nav ul > li > a.active {
-    color: #ff4040 !important;  /* Change text color */
-    background-color: #18365E !important; /* Ensure background color consistency */
+    color: #ff4040 !important;  
+    background-color: #18365E !important; 
 }
 
 
@@ -114,7 +114,7 @@
 
 
 .hamburger-button {
-    display: none; /* Hide by default on larger screens */
+    display: none; 
     background: none;
     border: none;
     font-size: 24px;
@@ -126,17 +126,17 @@
   .side-menu {
     position: fixed;
     top: 70px; 
-    right: -250px; /* Initially hidden */
+    right: -250px; 
     width: 250px;
     height: 100vh;
-    background-color: #333; /* Or your desired background */
+    background-color: #333;
     transition: right 0.3s ease-in-out;
     z-index: 1000;
     padding-top: 20px;
   }
   
   .side-menu.open {
-    right: 0; /* Show the menu */
+    right: 0; 
   }
   
   .side-menu ul {
@@ -156,14 +156,14 @@
     background-color: #555;
   }
   
-  /* Responsive Styles */
+ 
   @media (max-width: 768px) {
     .hamburger-button {
-      display: block; /* Show on small screens */
+      display: block;
     }
   
     .desktop-nav {
-      display: none !important; /* Hide desktop nav on small screens */
+      display: none !important; 
     }
   
     .nav-header .nav {
