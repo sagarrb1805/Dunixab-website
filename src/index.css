@@ -13,5 +13,7 @@ code {
 }
 
 :root {
-  --bs-navbar-active-color:  #ff4040; /* This is overriding Bootstrap's default */
+  --bs-navbar-active-color:  #ff4040; 
+  --secondcolor: #75696D !important;
+  --maincolor: #FF4040;
 }
