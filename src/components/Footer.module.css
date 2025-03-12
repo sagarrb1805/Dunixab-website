@@ -1,3 +1,52 @@
-.footer-div{
+/* .footer-div{
     background-color: #333;
+} */
+
+.footer-div {
+    /* position: absolute;   */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    margin-top: 20px;
+    /* height: 100vh; */
+    /* padding: 10px 0; */
+}
+
+.contact-form-card {
+    padding: 35px;
+  }
+
+/* .form-group{
+    padding: 20px;
+} */
+
+.form-input {
+    background-color: #444;
+    color: #FFF;
+    border: 1px solid #666;
+}
+.form-input:focus{
+    background-color: #444 !important; /* Ensure it remains dark */
+    color: #FFF;
+    border-color: #666; /* Optional: Add a theme border */
+    outline: none; 
+}
+
+.form-input::placeholder {
+    color: #CCC;
+}
+
+
+.btn-submit {
+    background-color: #E63939  ;
+    border-color: #E63939;
+    color: #FFF;
+}
+
+.btn-submit:hover {
+    background-color: #CC3333;
+    border-color: #CC3333;
 }
