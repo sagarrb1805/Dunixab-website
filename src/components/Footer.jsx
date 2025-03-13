@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Footer.module.css';
 import ContactInfo from './contactInfo/ContactInfo';
+import Copyright from './copyright/Copyright';
 
 function Footer() {
   return (
@@ -18,9 +19,9 @@ function Footer() {
                 <div className="form-group mb-3">
                   <input className={`${styles['form-input']} form-control`} type="email" placeholder="Email *" required name="email" />
                 </div>
-                <div className="form-group mb-3">
+                {/* <div className="form-group mb-3">
                   <input className={`${styles['form-input']} form-control`} type="tel" placeholder="Contact *" required name="contact" />
-                </div>
+                </div> */}
                 <div className="form-group mb-3">
                   <textarea className={`${styles['form-input']} form-control`} placeholder="Message *" rows="7" required name="message"></textarea>
                 </div>
@@ -34,6 +35,9 @@ function Footer() {
           <div className='col-md-4'>
             <ContactInfo></ContactInfo>
           </div>
+        </div>
+        <div className='row'>
+          <Copyright></Copyright>
         </div>
       </div>
     </div>

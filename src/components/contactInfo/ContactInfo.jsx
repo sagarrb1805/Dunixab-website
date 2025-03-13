@@ -3,6 +3,10 @@ import styles from './ContactInfo.module.css';
 import { TfiMobile } from "react-icons/tfi";
 import { GrMapLocation } from "react-icons/gr";
 import { MdOutlineAttachEmail } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 function ContactInfo() {
   return (
@@ -45,27 +49,33 @@ function ContactInfo() {
         </div>
       </div>
 
-      <ul className="social-icons pt-4">
-        <li className="social-item">
+      <ul className={`${styles['social-icons']} pt-4`}>
+        
+        <li className={styles['social-item']}>
+          <a className={`${styles['social-link']}`} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/">
+            <FaLinkedin></FaLinkedin>
+          </a>
+        </li>
+        <li className={styles['social-item']}>
+          <a className={`${styles['social-link']}`} target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/">
+            <FaSquareInstagram/>
+          </a>
+        </li>
+        <li className={styles['social-item']}>
+          <a className={`${styles['social-link']}`} target="_blank" rel="noopener noreferrer" href="https://x.com/">
+           <FaTwitter/>
+          </a>
+        </li>
+        <li className={styles['social-item']}>
+          <a className={`${styles['social-link']}`} target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/">
+           <FaFacebook/> 
+          </a>
+        </li>
+        {/* <li className="social-item">
           <a className="social-link text-dark" target="_blank" rel="noopener noreferrer" href="https://github.com/sagarrb1805">
             <i className="ti-github" aria-hidden="true"></i>
           </a>
-        </li>
-        <li className="social-item">
-          <a className="social-link text-dark" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sagarrb1805">
-            <i className="ti-linkedin" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li className="social-item">
-          <a className="social-link text-dark" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sagar_r_b1805/">
-            <i className="ti-instagram" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li className="social-item">
-          <a className="social-link text-dark" target="_blank" rel="noopener noreferrer" href="https://join.skype.com/invite/xDiv0UIznG7d">
-            <i className="ti-skype" aria-hidden="true"></i>
-          </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

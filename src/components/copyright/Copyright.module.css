@@ -1,0 +1,18 @@
+.copyright-container {
+    /* background-color: #222;  */
+    color: #bbb;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    border-top: 1px solid #444; 
+}
+
+.copyright-container a {
+    color: #FF4040; 
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.copyright-container a:hover {
+    color: #cc3333; 
+}
