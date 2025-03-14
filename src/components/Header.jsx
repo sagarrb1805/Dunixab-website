@@ -57,7 +57,7 @@ const Header = (props) => {
                                 <div className={styles['call-icon-div']}>
                                     <MdOutlineAddIcCall className={styles['call-icon']} />
                                 </div>
-                                <span className={styles['phone-number']}>+91-9746 7184 61</span>
+                                <span className={styles['phone-number']}>+91-9633 6542 96</span>
                             </div>
 
                         </li>

@@ -20,7 +20,7 @@ function ContactInfo() {
         <div className="col-10">
           <h6 className={styles['d-inline']}>
             Phone : <br /> 
-            <span className={`${styles['text-muted']}`}>+ (91) 9567601581</span>
+            <span className={`${styles['text-muted']}`}>+ (91) 9633 6542 96</span>
           </h6>
         </div>
       </div>
@@ -44,7 +44,7 @@ function ContactInfo() {
         <div className="col-10">
           <h6 className={styles['d-inline']}>
             Email : <br /> 
-            <span className={`${styles['text-muted']}`}>sagarrb1805@gmail.com</span>
+            <span className={`${styles['text-muted']}`}>info@dunixab.com</span>
           </h6>
         </div>
       </div>
@@ -52,12 +52,12 @@ function ContactInfo() {
       <ul className={`${styles['social-icons']} pt-4`}>
         
         <li className={styles['social-item']}>
-          <a className={`${styles['social-link']}`} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/">
+          <a className={`${styles['social-link']}`} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/dunixab/">
             <FaLinkedin></FaLinkedin>
           </a>
         </li>
         <li className={styles['social-item']}>
-          <a className={`${styles['social-link']}`} target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/">
+          <a className={`${styles['social-link']}`} target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dunixab">
             <FaSquareInstagram/>
           </a>
         </li>

@@ -9,15 +9,16 @@ function About() {
       <div className={styles['image-container']}>
         <Image className={styles['about-image']} src={HomeImage} alt="About image" />
         <div className={styles['content-overlay']}>
-          <p>hello world</p>
+          <h3>About Us</h3>
+          <p>Coming soon...</p>
           {/* Add other content here */}
         </div>
       </div>
-      <div className={styles['below-image-content']}>
-        <p>This is content below the image.</p>
-        <p>Another paragraph of content.</p>
+      {/* <div className={styles['below-image-content']}> */}
+        {/* <p>This is content below the image.</p>
+        <p>Another paragraph of content.</p> */}
         {/* Add more content here */}
-      </div>
+      {/* </div> */}
     </div>
   );
 }

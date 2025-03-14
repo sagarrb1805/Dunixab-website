@@ -6,6 +6,7 @@
 
 .carousel-header{
     color:  #ff4040;
+    
 }
 .carousel-text{
     color: #FFF;
@@ -27,7 +28,18 @@
     background: #FFF;
     border: none;
     margin: auto;
+    height: 32rem;
+    transition: .3s;
 }
+
+.card-element:hover{
+    transform: scale(1.1);
+    background: #f0f0f0;
+}
+.service-header-div{
+margin-bottom: 30px;
+}
+
   
 .home-main-content{
     padding-top: 20px;
