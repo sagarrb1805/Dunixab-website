@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from './Header.module.css';
 import { MdOutlineAddIcCall } from "react-icons/md";
@@ -6,13 +6,23 @@ import Image from '../Images/SampleLogo.png';
 
 const Header = (props) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 300); 
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
     return (
-        <div className={`${styles['nav-header']} ${styles['bottom-line']}`}>
+        <div className={`${styles['nav-header']} ${styles['bottom-line']} ${isScrolled ? styles['scrolled'] : ''}`}>
             <div className="container">
                 <div className={`${styles['nav']}`}>
                     <h3 className={styles['company-name']}>Duni<span className={styles['company-name-span']}>x</span>ab</h3>
@@ -47,7 +57,7 @@ const Header = (props) => {
                                 <div className={styles['call-icon-div']}>
                                     <MdOutlineAddIcCall className={styles['call-icon']} />
                                 </div>
-                                <span className={styles['phone-number']}>+91-9746 7184 61</span>
+                                <span className={styles['phone-number']}>+91-9633 6542 96</span>
                             </div>
 
                         </li>
