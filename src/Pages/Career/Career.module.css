@@ -2,6 +2,11 @@
     height: 700px;
 
 } */
+
+.image-container {
+    position: relative;
+    padding-top: 80px;
+  }
 .career-image{
     height: 100vh;
     width: 100vw;

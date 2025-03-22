@@ -1,13 +1,14 @@
 .logo{
-    height: 100px;
+    height: 50px;
+    width: 150px;
 }
 
 .company-name{
-    color: #FFF;
+    color: #75696D;
 }
 
 .company-name .company-name-span{
-    color: #ff4040;
+    color: #002147;
 }
 
 .call-icon{
@@ -20,7 +21,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #ff4040;
+    background-color: #005CCA;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -33,7 +34,7 @@
 }
 
 .contact-main-div .phone-number{
-    color: #FFF;
+    color: #75696D;
     margin-left: 8px;
     font-size: 18px;
     font-weight: 600px;
@@ -41,19 +42,21 @@
 
 .nav-header{
     background-color:transparent;
-    padding: 20px 0;
+    padding: 10px 0;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 105;
     transition: .4;
     transition: background-color 0.3s ease-in-out;
+    height: 80px;
+    background-color: #FFF;
 }
 
 
 .scrolled {
-    background: rgba(0, 0, 0, 0.9); /* Darker background when scrolled */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+    background: rgba(255, 255, 255, 0.8); /* Adjust the last value (0.8) for transparency */
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* Optional shadow effect */
 }
 
 .nav-header.bottom-line {
@@ -87,7 +90,7 @@
 }
 .nav-header .nav > ul > li > a {
     padding: 7px 19px;
-    color: #FFF;
+    color: #75696D;
     text-decoration: none;
     border-radius: 25px;
     /* border: 1px solid #8d8c8c; */
@@ -96,10 +99,20 @@
     font-size: 18px;
 }
 
+/* .nav-link .active{
+    color: red
+} */
+
+/* .nav-header .nav > ul > li > a:active {
+    color: #FF4040 !important; 
+} */
+
+
+
 
 .nav-header .nav ul > li > a:hover {
     
-    color: #ff4040;
+    color: #005CCA;
 }
 .nav-header .nav ul > li > a {
     transition: transform 0.3s ease;
@@ -120,7 +133,7 @@
     border: none;
     font-size: 24px;
     cursor: pointer;
-    color: #fff;
+    color: #005CCA;
     margin-left: auto;
   }
   

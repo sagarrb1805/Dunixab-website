@@ -5,13 +5,19 @@
   }
 
 .carousel-header{
-    color:  #ff4040;
-    
+    color: #A4C5EC;
+    font-weight: 600;
+    font-size: 60px;
 }
 .carousel-text{
     color: #FFF;
+    font-weight: 400;
+    font-size: 20px;
 }
 
+.home-div{
+    padding-top: 80px;
+}
 
 .card-container {
     display: flex;
@@ -28,13 +34,14 @@
     background: #FFF;
     border: none;
     margin: auto;
-    height: 32rem;
+    height: 29rem;
     transition: .3s;
 }
 
 .card-element:hover{
-    transform: scale(1.1);
+    transform: translateY(-10px);
     background: #f0f0f0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .service-header-div{
 margin-bottom: 30px;
@@ -43,9 +50,29 @@ margin-bottom: 30px;
   
 .home-main-content{
     padding-top: 20px;
-    background-color: #F6F6F6;
+    /* background-color: #F6F6F6; */
+    background: linear-gradient(100deg, rgba(149, 150, 233, 0.1), rgba(0, 0, 0, 0.05));
+    backdrop-filter: blur(50px);
 }
 
+.card-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #005CCA;
+}
+
+.card-text{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.our-service-text{
+color: #75696D;
+}
+
+.our-service-head{
+    font-weight: 600;
+}
 
 @media (max-width: 768px) {
 .full-width-image{

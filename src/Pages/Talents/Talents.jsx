@@ -6,7 +6,7 @@ import HomeImage from '../../Images/homeImage3.jpg'
 
 function Talents() {
   return (
-    <div className={styles['talent-main-div']}>
+    <div className={styles['image-container']}>
       <Image className={styles['talent-image']} src={HomeImage} alt="Talent image" />
       <div className={styles['content-overlay']}>
       <h3>Talents</h3>
@@ -14,6 +14,8 @@ function Talents() {
       </div>
       
     </div>
+
+
   )
 }
 
