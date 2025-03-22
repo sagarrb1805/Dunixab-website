@@ -11,13 +11,16 @@ import Image1 from '../../Images/Image1.jpg'
 import Image2 from '../../Images/Image2.webp'
 import Image3 from '../../Images/Image3.png'
 import AnimationServiceImage from '../../Images/2d3dAnimation.png'
+import SoundRecordServiceImage from '../../Images/SoundRecording.png'
+import VideoEditingService from '../../Images/videoEditing.png'
+import MotionGraphics from "../../Images/MotionGraphics.png"
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
 function Home() {
   let services = [{ title: "2D & 3D Animation", text: "We create high-quality 2D and 3D animations that bring ideas to life. From character animations to product demos, we craft engaging visuals that captivate audiences.", Image: AnimationServiceImage },
-  { title: "Motion Graphics", text: "Enhance your videos with dynamic motion graphics. We specialize in kinetic typography, animated logos, and visual effects to make your content stand out.", Image: ServiceImage },
-  { title: "Sound Designing & Recording", text: "From voiceovers to sound effects, we offer professional sound design and audio recording services that enhance storytelling and engagement.", Image: ServiceImage },
-  { title: "Graphic Designing & Video Editing", text: "Our expert designers and editors craft visually stunning graphics and videos, ensuring polished and impactful media for branding, advertising, and content creation.", Image: ServiceImage }
+  { title: "Motion Graphics", text: "Enhance your videos with dynamic motion graphics. We specialize in kinetic typography, animated logos, and visual effects to make your content stand out.", Image: MotionGraphics },
+  { title: "Sound Designing & Recording", text: "From voiceovers to sound effects, we offer professional sound design and audio recording services that enhance storytelling and engagement.", Image: SoundRecordServiceImage },
+  { title: "Graphic Designing & Video Editing", text: "Our expert designers and editors craft visually stunning graphics and videos, ensuring polished and impactful media for branding, advertising, and content creation.", Image: VideoEditingService }
   ]
   return (
     <div className={styles['home-div']}>
