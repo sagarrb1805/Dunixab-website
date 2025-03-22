@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Dunixab-website/static/css/main.e70da566.css",
+    "main.js": "/Dunixab-website/static/js/main.709b834a.js",
+    "static/js/453.bb828c5d.chunk.js": "/Dunixab-website/static/js/453.bb828c5d.chunk.js",
+    "static/media/homeImage3.jpg": "/Dunixab-website/static/media/homeImage3.fb3b4344147cef440dcc.jpg",
+    "static/media/home_image.png": "/Dunixab-website/static/media/home_image.4cc1823db7709cabb759.png",
+    "static/media/jobs-animation-image.jpg": "/Dunixab-website/static/media/jobs-animation-image.634fc2dc56403b9aeb8d.jpg",
+    "static/media/service-02.png": "/Dunixab-website/static/media/service-02.76a8be7751db6d094239.png",
+    "static/media/logo.svg": "/Dunixab-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Dunixab-website/index.html",
+    "main.e70da566.css.map": "/Dunixab-website/static/css/main.e70da566.css.map",
+    "main.709b834a.js.map": "/Dunixab-website/static/js/main.709b834a.js.map",
+    "453.bb828c5d.chunk.js.map": "/Dunixab-website/static/js/453.bb828c5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e70da566.css",
+    "static/js/main.709b834a.js"
+  ]
+}
