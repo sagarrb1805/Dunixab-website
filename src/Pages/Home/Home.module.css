@@ -34,8 +34,10 @@
     background: #FFF;
     border: none;
     margin: auto;
-    height: 29rem;
+    height: 23rem;
     transition: .3s;
+    text-align: center;
+    align-items: center;
 }
 
 .card-element:hover{
@@ -64,6 +66,12 @@ margin-bottom: 30px;
 .card-text{
     font-weight: 400;
     font-size: 14px;
+}
+
+.service-card-image{
+    height: 180px;
+    width: 180px;
+    padding-top: 15px;
 }
 
 .our-service-text{

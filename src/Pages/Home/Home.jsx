@@ -14,6 +14,7 @@ import AnimationServiceImage from '../../Images/2d3dAnimation.png'
 import SoundRecordServiceImage from '../../Images/SoundRecording.png'
 import VideoEditingService from '../../Images/videoEditing.png'
 import MotionGraphics from "../../Images/MotionGraphics.png"
+
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
 function Home() {
