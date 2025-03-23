@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>  
+      <BrowserRouter basename="/Dunixab-website">  
         <Header/>
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
