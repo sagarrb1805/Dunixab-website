@@ -82,8 +82,21 @@ color: #75696D;
     font-weight: 600;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 999px) {
 .full-width-image{
     height: 400px;
 }
+
+
+.carousel-header{
+    color: #A4C5EC;
+    font-weight: 500;
+    font-size: 40px;
+}
+.carousel-text{
+    color: #FFF;
+    font-weight: 400;
+    font-size: 17px;
+}
+
 }
