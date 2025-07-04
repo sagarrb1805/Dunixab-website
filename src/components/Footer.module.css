@@ -41,12 +41,12 @@
 
 
 .btn-submit {
-    background-color: #E63939  ;
-    border-color: #E63939;
+    background-color: #005CCA  ;
+    border-color: #005CCA;
     color: #FFF;
 }
 
 .btn-submit:hover {
-    background-color: #CC3333;
-    border-color: #CC3333;
+    background-color: #014eac;
+    border-color: #014eac;
 }

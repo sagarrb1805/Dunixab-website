@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from './Header.module.css';
 import { MdOutlineAddIcCall } from "react-icons/md";
-import Image from '../Images/SampleLogo.png';
+import { Image } from 'react-bootstrap';
+import Logo from '../Images/Dunixab Logo Horizontal.png'
+
 
 const Header = (props) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,7 +27,8 @@ const Header = (props) => {
         <div className={`${styles['nav-header']} ${styles['bottom-line']} ${isScrolled ? styles['scrolled'] : ''}`}>
             <div className="container">
                 <div className={`${styles['nav']}`}>
-                    <h3 className={styles['company-name']}>Duni<span className={styles['company-name-span']}>x</span>ab</h3>
+                    <Image className={styles['logo']} src={Logo}></Image>
+                    {/* <h3 className={styles['company-name']}>Duni<span className={styles['company-name-span']}>x</span>ab</h3> */}
                     <button className={styles['hamburger-button']} onClick={toggleMenu}>
                         ☰
                     </button>

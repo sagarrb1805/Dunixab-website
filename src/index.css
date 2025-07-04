@@ -13,7 +13,7 @@ code {
 }
 
 :root {
-  --bs-navbar-active-color:  #ff4040; 
+  --bs-navbar-active-color:  #005CCA; 
   --secondcolor: #75696D !important;
-  --maincolor: #FF4040;
+  --maincolor: #005CCA;
 }
