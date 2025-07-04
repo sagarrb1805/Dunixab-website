@@ -7,6 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 function ContactInfo() {
   return (
@@ -52,7 +53,7 @@ function ContactInfo() {
       <ul className={`${styles['social-icons']} pt-4`}>
         
         <li className={styles['social-item']}>
-          <a className={`${styles['social-link']}`} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/dunixab/">
+          <a className={`${styles['social-link']}`} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/dunixabstudio/">
             <FaLinkedin></FaLinkedin>
           </a>
         </li>
@@ -62,12 +63,12 @@ function ContactInfo() {
           </a>
         </li>
         <li className={styles['social-item']}>
-          <a className={`${styles['social-link']}`} target="_blank" rel="noopener noreferrer" href="https://x.com/">
-           <FaTwitter/>
+          <a className={`${styles['social-link']}`} target="_blank" rel="noopener noreferrer" href="https://x.com/dunixab">
+           <FaSquareXTwitter />
           </a>
         </li>
         <li className={styles['social-item']}>
-          <a className={`${styles['social-link']}`} target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/">
+          <a className={`${styles['social-link']}`} target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/dunixab">
            <FaFacebook/> 
           </a>
         </li>
