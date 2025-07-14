@@ -12,7 +12,7 @@ function Footer() {
             <div className={styles["contact-form-card"]}>
               <h4 className="contact-title">Send a message</h4>
               <form action="https://api.staticforms.xyz/submit" method="post">
-                <input type="hidden" name="accessKey" value="sf_gli528a0df938elbli8143km" />
+                <input type="hidden" name="accessKey" value="sf_l0486bfbefd27d021m035g0l" />
                 <div className="form-group mb-3">
                   <input className={`${styles['form-input']} form-control`} type="text" placeholder="Name *" required name="name" />
                 </div>

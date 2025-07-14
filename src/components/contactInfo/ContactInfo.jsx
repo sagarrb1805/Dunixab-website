@@ -46,7 +46,7 @@ function ContactInfo() {
         <div className="col-10">
           <h6 className={styles['d-inline']}>
             Email : <br /> 
-            <span className={`${styles['text-muted']}`}>info@dunixab.com</span>
+            <span className={`${styles['text-muted']}`}>contact@dunixab.com</span>
           </h6>
         </div>
       </div>
